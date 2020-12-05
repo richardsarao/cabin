@@ -1,0 +1,142 @@
+
+/*nav bar start*/
+
+    ul {
+      
+      display: flex;
+      align-items: stretch; /* Default */
+      justify-content: space-between;
+      z-index: 10000;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgba(0,0,0,0.85);
+      position: fixed;
+      top: 0;
+      width: 100%;
+      color: white;
+      font-size: 1.5em;
+      text-align: center;
+    }
+
+    li {
+      float: left;
+      display: block;
+      padding: 15px;
+      
+    }
+
+    .nav{
+      margin-bottom: 70px;
+    }
+/*nav bar stop*/
+
+h1{ margin: 0; white-space: nowrap; }
+
+.clear {clear: both;}
+
+
+
+/*carousel start*/
+.left.carousel-control {opacity: 1.0;
+  }
+
+    .carousel-control.left{
+      background-image: none;
+      opacity: 1.0;
+     }
+
+    .carousel-control.right{
+      background-image: none;
+     }
+
+    .carousel-inner{
+      border-radius: 20px;
+    }
+
+    #container3 {
+      width:100%; /*width of browser window*/
+      text-align:center; 
+    }
+
+    #container3 > div {
+      border-radius: 20px;
+      overflow: auto;
+      /*width: calc(100% / 4);*/   /*width of divs inside container3 */
+      display: inline-block;
+      vertical-align: top;   
+      text-align:center;
+      margin: 2%;  
+      max-width: 409px;
+      max-height: 346px; 
+      padding:0px;}
+    }
+/*carousel stop*/
+
+/*weather bar start*/
+    .content{
+        margin-top: 50px;
+        font-size: 30px;
+        background-color: black;
+        border-radius: 20px;
+      }
+/*weather bar stop*/
+
+/*media queries start*/
+
+ @media only screen and (max-width: 500px) {
+    
+    ul{font-size: 1em;}
+
+    .weatherWidgit{
+      padding: 0px;
+      margin: 0px;
+    }
+
+
+    .visualcrossing-wx-widget .content{
+      background-color: black;
+      border-radius:6px;
+      font-size:20px;   
+      color:white;
+      padding: 0px;
+    }
+    .current{
+      margin: 0px;
+    }
+
+  .title {
+    font-size: .1em;
+
+  }
+    .visualcrossing-wx-widget {
+      height: 100px;
+      padding: 0px;
+      margin: 0px;
+    }
+    h2{font-size: 20px; line-height: ,5; }
+    h1{font-size: 25px;}
+
+    #container3 > div {
+      overflow: auto;
+      max-width: 290px;
+      max-height: 246px; 
+      }
+    }
+  }
+
+/*media queries start*/
+img{
+  border-radius: 20px;
+}
+
+.overlay { 
+  color:#fff;
+  position:absolute;
+  z-index:1000;
+  top:50%;
+  left:0;
+  width:100%;
+  text-align:center;
+}

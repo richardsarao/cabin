@@ -1,0 +1,46 @@
+
+
+/*carousel start*/
+      #allCarousels{
+            width:100%; /*width of browser window*/
+            text-align:center; 
+            margin-top: 60px;
+             
+
+          }
+
+      #allCarousels > div {
+        border-radius: 12px;
+        overflow: auto;
+        /*width: calc(100% / 4);*/   /*width of divs inside container3 */
+        display: inline-block;
+        vertical-align: top;   
+        text-align:center;
+        margin: 2.5%;  
+        max-width: 660px;
+        max-height: 606px; 
+        padding:0px;}
+      }
+/*carousel end*/
+
+/*buttons start*/
+    <style type="text/css">
+      .btn {
+      background-color: DodgerBlue; /* Blue background */
+      border: none; /* Remove borders */
+      color: white; /* White text */
+      padding: 12px 16px; /* Some padding */
+      font-size: 16px; /* Set a font size */
+      cursor: pointer; /* Mouse pointer on hover */
+    }
+
+    button{
+      border: none;
+      background: none;
+    }
+
+    /* Darker background on mouse-over */
+    .btn:hover {
+      background-color: RoyalBlue;
+}
+/*buttons end*/
