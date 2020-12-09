@@ -1,0 +1,1 @@
+This is my first website from scratch.  It's all about my families summer cabin in northern California.  
